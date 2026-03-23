@@ -181,12 +181,12 @@ function Contact() {
             </form>
           </div>
           {/* Contact Infor */}
-          <div className='space-y-6 animate-fade-in animation-delay-400'>
+          <div className='space-y-6 animate-fade-in animation-delay-400 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1'>
             <div className='glass rounded-3xl p-8'>
               <h3 className='text-xl font-semibold mb-6'>
                 Contact Information
               </h3>
-              <div className='space-y-4'>
+              <div className='space-y-4 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4'>
                 {contactInfor.map((item, i) =>(
                   <a 
                   key={i}
