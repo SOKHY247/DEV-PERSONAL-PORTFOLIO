@@ -1,7 +1,5 @@
-import React from 'react'
 import { Button } from "@/components/button"
 import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download } from 'lucide-react'
-import { icons} from 'lucide-react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
 
 

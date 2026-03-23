@@ -1,6 +1,3 @@
-import { TurkishLira } from 'lucide-react'
-import React from 'react'
-
 function Experience() {
 
   const experinces = [

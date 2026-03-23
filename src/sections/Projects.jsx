@@ -1,6 +1,5 @@
 
 import { ArrowUpRight, Github } from 'lucide-react'
-import React from 'react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
 function Projects() {
 
