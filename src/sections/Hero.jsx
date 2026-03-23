@@ -118,7 +118,7 @@ function Hero() {
               <div className='relative glass rounded-3xl p-2 glow-border'>
                 <img src='profile.jpg' 
                 alt='Sokhey Van '
-                className='w-full aspect-[4/5] object-cover rounded-2xl' 
+                className='w-full aspect-4/5 object-cover rounded-2xl' 
                 />
 
                 {/* Floating Badge */}
@@ -147,7 +147,7 @@ function Hero() {
             <div className='flex animate-marquee'>
              {[...skills, ...skills].map((skill ,index) =>(
               <div key={index}
-              className='flex-shrink-0 px-8 py-4' >
+              className='flex shrink-0 px-8 py-4' >
                 <span 
                 className='text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors'>
                   {skill}
