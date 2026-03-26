@@ -6,18 +6,18 @@ function Projects() {
   const projects =[
     {
       title : "E-commerce Sale products",
-      desc : "Bulid about e-commerce web site sale produts.",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","PHP-laravel","Mysql"],
-      link : "",
-      github : "",
+      desc : "Bulid about e-commerce web site sale produts.( currently keep going to build project full stack )",
+      image : "/projects/e-commerce.png",
+      tags  : ["React","PHP-laravel","Mysql","tailwindcss"],
+      link : "#",
+      github : "https://github.com/SOKHY247",
     },
      {
       title : "Book Store",
       desc : "Sale book online platform E-commerce.",
       image : "/projects/Book_store.png",
       tags  : ["React","Tailwindcss"],
-      link : "https://book-store-woad-nine.vercel.app/",
+      link : "https://book-store-61xb.vercel.app/",
       github : "https://github.com/SOKHY247",
     },
     // {

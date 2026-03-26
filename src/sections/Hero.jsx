@@ -1,6 +1,12 @@
 import { Button } from "@/components/Button"
 import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download, Link } from 'lucide-react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
+const dots = [...Array(30)].map(() => ({
+  left: `${Math.random() * 100}%`,
+  top: `${Math.random() * 100}%`,
+  duration: `${15 + Math.random() * 20}s`,
+  delay: `${Math.random() * 5}s`,
+}))
 
 
 const skills = [
@@ -33,16 +39,16 @@ function Hero() {
 
       {/* Green Dots */}
       <div className='absolute inset-0 overflow-hidden pointer-events-none'>
-        {[...Array(30)].map((_, i) => (
+        {dots.map((dot, i) => (
           <div
             key={i}
             className='absolute w-1.5 h-1.5 rounded-full opacity-60'
             style={{
               backgroundColor: "#20B2A6",
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${15 + Math.random() * 20}s ease-in-out infinite`,
-              animationDelay: `${Math.random() * 5}s`,
+              left: dot.left,
+              top: dot.top,
+              animation: `slow-drift ${dot.duration} ease-in-out infinite`,
+              animationDelay: dot.delay,
             }}
           />
         ))}
