@@ -8,7 +8,7 @@ function Navbar() {
     { href :"#about" , label : "About"},
     { href :"#experience" , label : "Experience"},
     { href :"#projects" , label : "Projects"},
-    { href :"#testimonials" , label : "Testimonials"},
+    // { href :"#testimonials" , label : "Testimonials"},
     { href :"#contact" , label : "Contact"},
     { href :"#blog" , label : "Blog"}
   ]
@@ -45,9 +45,11 @@ function Navbar() {
 
         {/* CTA Button */}
         <div className='hidden md:block'>
+          <a href="https://t.me/SOKHY_VAN">
           <Button size="sm">
             Contact Me
           </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

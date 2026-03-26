@@ -2,53 +2,29 @@ function Experience() {
 
   const experinces = [
     {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current : true
-    },
-    {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current : false
-    },
-    {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current: true
-    },
-    {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current: false
-    },
-    {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current: true
-    },
-    {
-      period : "2022 - Present",
-      role   : "Senor Frontend Engineering",
-      company: "Tech Innovators Inc.",
-      desc : "Leading frontend architecture for suite of fintech products.",
-      technologies: ["React", "TypeScript", "Next.js", " GraphQL"],
-      current: false
-    }
+    period: "2024 - Present",
+    role: "Information Technology Student",
+    company: "University / Self-Learning",
+    desc: "Focusing on web development fundamentals and building modern web applications using React, Next.js, and TypeScript. Continuously improving problem-solving and frontend architecture skills.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript"],
+    current: true
+  },
+  {
+    period: "2023 - 2024",
+    role: "Frontend Developer (Personal Projects)",
+    company: "Self-Driven Projects",
+    desc: "Developed responsive and user-friendly web applications, including landing pages and dynamic interfaces. Gained hands-on experience with component-based architecture and state management.",
+    technologies: ["React", "Tailwind CSS", "JavaScript", "Git"],
+    current: false
+  },
+  {
+    period: "2022 - 2023",
+    role: "Web Development Learner",
+    company: "Online Platforms",
+    desc: "Started learning web development fundamentals including HTML, CSS, and JavaScript. Built small projects to understand core concepts and browser behavior.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    current: false
+  }
   ]
   return (
     <section 
@@ -65,7 +41,7 @@ function Experience() {
                 <span className='font-serif italic font-normal text-white'>{" "}speaks volumes.</span>
               </h2>
               <p className='text-muted-foreground animate-fade-in animation-delay-200'>
-                A timeline of my professional growth, from curious beginner to senor engineer leading teams and teams and building products at scale.
+                A timeline of my growth as a web development student—from a curious beginner learning the fundamentals to a developer building real-world projects and continuously improving my skills.
               </p>
           </div>
           {/* Timeline */}

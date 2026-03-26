@@ -1,25 +1,31 @@
 import{Button} from '@/components/Button'
-import { AlertCircle, Check, CheckCircle, Mail, MapPin, Phone, Send } from 'lucide-react'
+import { AlertCircle, Check, CheckCircle, icons, Mail, MapPin, Phone, Send } from 'lucide-react'
 import { useState } from 'react';
 import emailjs from '@emailjs/browser'
 const contactInfor =[
     {
       icon: Mail,
       label: "Email",
-      value: "sokhyvann@gmail.com",
+      value: "sokhyvann247@gmail.com",
       href: "mailto:sokhyvann@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "01234567",
-      href: "tel: +855 37355383",
+      value: "069784480",
+      href: "tel: +855 69784480",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "PP",
+      value: "st.217, Stung Meanchey",
       href: "#"
+    },
+    {
+      icon:Send,
+      label: "Telegram",
+      value: "Contact Me",
+      href: "https://t.me/SOKHY_VAN"
     }
   ];
 function Contact() {
@@ -93,11 +99,11 @@ function Contact() {
             </span>
           </h2>
           <p className='text-muted-foreground animate-fade-in animation-delay-200'>
-            Have a project in mind or want to discuss potential opportunities? I'd love to hear from you!
+            Have a project in mind or looking for a web developer? Let’s discuss how we can bring your ideas to life.
 
           </p>
         </div>
-        <div className='grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto'>
+        <div className='grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto relative md:grid-cols-2'>
           <div className='glass  p-8 rounded-3xl border border-primary animate-fade-in animation-delay-300'>
             <form  className='space-y-6' onSubmit={handleSubmit}>
               <div>
@@ -181,7 +187,7 @@ function Contact() {
             </form>
           </div>
           {/* Contact Infor */}
-          <div className='space-y-6 animate-fade-in animation-delay-400 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1'>
+          <div className='space-y-6 animate-fade-in animation-delay-400 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-auto'>
             <div className='glass rounded-3xl p-8'>
               <h3 className='text-xl font-semibold mb-6'>
                 Contact Information
@@ -211,7 +217,7 @@ function Contact() {
                 <span className='font-medium'>Currently Available</span>
               </div>
               <p className='text-muted-foreground text-sm'>
-                I'm currently available for freelance work and open to new opportunities. Let's create something amazing together!
+                I’m available for freelance web development projects and open to new opportunities. Let’s create fast, scalable, and impactful digital experiences together.
               </p>
             </div>
           </div>

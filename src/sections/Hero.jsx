@@ -1,5 +1,5 @@
 import { Button } from "@/components/Button"
-import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download } from 'lucide-react'
+import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download, Link } from 'lucide-react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
 
 
@@ -7,12 +7,12 @@ const skills = [
   "React",
   "JavaScript",
   "Node.js",
-  "Python",
-  "TypeScript",
-  "Next.js",
+  "PHP",
+  "Laravel",
+  "Git Control",
+  "C#",
+  "Node.js",
   "Tailwind CSS",
-  "MongoDB",
-  "PostgreSQL",
   "JavaScript",
   "HTML",
   "CSS",
@@ -54,7 +54,7 @@ function Hero() {
           <div className='space-y-8'>
             <div className="animate-fade-in">
               <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
-                <span className='w-2 h-2 bg-primary rounded-full animate-pulse'/>Software Engineering * React Specialist
+                <span className='w-2 h-2 bg-primary rounded-full animate-pulse'/>Student Web Development 
                 </span>
             </div>
             {/* Headline */}
@@ -62,23 +62,24 @@ function Hero() {
               <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100'>
                 Crafting <span className='text-primary glow-text'>digital</span>
                 <br/>
-                experiences with
+                web experiences with
                 <br/>
                 <span className='font-serif italic font-normal text-white'>
-                  precision.
+                  precision and performance.
                 </span>
               </h1>
               <p className='text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200'>
-                I build exceptional digital experiences that are fast, accessible, 
-                and visually appealing and learn coding every day. 
-                In the future i want to be come to Softnware  Engineer.
+                I build exceptional digital experiences that are fast, accessible, and visually appealing. I’m committed to improving my coding skills every day, with a clear goal of becoming a Software Engineer in the future.
               </p>
             </div>
             {/* CTA  */}
             <div className='flex flex-wrap gap-4 animated-fade-in animation-delay-300 items-center'> 
+              <a href="https://t.me/SOKHY_VAN">
               <Button size="lg">
-                Contact Me <ArrowRight className='w-5 h-5'/>
+                Contact Me 
+                <ArrowRight className='w-5 h-5'/>
               </Button>
+              </a>
               <AnimateBorderButton >
                   <Download className='w-5 h-5'/>
                   Download CV
@@ -132,7 +133,7 @@ function Hero() {
                 {/* Stats Badge */}
                 <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
                   <div className='text-2xl font-bold text-primary'>2+</div>
-                  <div className='text-xs text-shadow-muted-foreground'>Years Exp.</div>
+                  <div className='text-xs text-shadow-muted-foreground'>keep learning</div>
                 </div>
               </div>
             </div>
@@ -140,7 +141,7 @@ function Hero() {
         </div>
          {/* Skills Section */}
          <div className='mt-20 animate-fade-in animation-delay-600'>
-          <p className='text-sm text-muted-foreground mb-6 text-center'>Technologies I work with</p>
+          <p className='text-sm text-muted-foreground mb-6 text-center'>Technologies I learned and work with</p>
           <div className='relative overflow-hidden'>
             <div className='flex animate-marquee'>
              {[...skills, ...skills].map((skill ,index) =>(

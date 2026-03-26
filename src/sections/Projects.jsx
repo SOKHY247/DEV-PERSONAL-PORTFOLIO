@@ -5,69 +5,69 @@ function Projects() {
 
   const projects =[
     {
-      title : "Hotel Management System",
-      desc : "Bulid about hotel management system by self",
+      title : "E-commerce Sale products",
+      desc : "Bulid about e-commerce web site sale produts.",
       image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
+      tags  : ["React","PHP-laravel","Mysql"],
+      link : "",
+      github : "",
     },
      {
-      title : "Book store",
-      desc : "Sale book online platform E-commerce",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
+      title : "Book Store",
+      desc : "Sale book online platform E-commerce.",
+      image : "/projects/Book_store.png",
+      tags  : ["React","Tailwindcss"],
+      link : "https://book-store-woad-nine.vercel.app/",
+      github : "https://github.com/SOKHY247",
     },
-    {
-      title : "University Management",
-      desc : "Web site University build popurse that allowe student learn from home , course and many major byself. ",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
-     {
-      title : "E-commerce sale ",
-      desc : "I'm a passionate software engineering with over 2 years of experince crafting digital products that make a different",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
-     {
-      title : "AI web Technology",
-      desc : "AI is technology is importent in the world.",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
-     {
-      title : "University Management",
-      desc : "Web site University build popurse that allowe student learn from home , course and many major byself. ",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
-    {
-      title : "Khmer Post",
-      desc : "This web site build for post many event that has in currently and provide imformation to the people aroud the countries and the world.",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
-    {
-      title : "Hotel Management System",
-      desc : "Bulid about hotel management system by self",
-      image : "/projects/ProjectManagement.jpg",
-      tags  : ["React","NodeJs","MongoDB"],
-      link : "#",
-      github : "#",
-    },
+    // {
+    //   title : "University Management",
+    //   desc : "Web site University build popurse that allowe student learn from home , course and many major byself. ",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
+    //  {
+    //   title : "E-commerce sale ",
+    //   desc : "I'm a passionate software engineering with over 2 years of experince crafting digital products that make a different",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
+    //  {
+    //   title : "AI web Technology",
+    //   desc : "AI is technology is importent in the world.",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
+    //  {
+    //   title : "University Management",
+    //   desc : "Web site University build popurse that allowe student learn from home , course and many major byself. ",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
+    // {
+    //   title : "Khmer Post",
+    //   desc : "This web site build for post many event that has in currently and provide imformation to the people aroud the countries and the world.",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
+    // {
+    //   title : "Hotel Management System",
+    //   desc : "Bulid about hotel management system by self",
+    //   image : "/projects/ProjectManagement.jpg",
+    //   tags  : ["React","NodeJs","MongoDB"],
+    //   link : "#",
+    //   github : "#",
+    // },
   ]
   return (
     <section id='projects' className='py-32 relative overflow-hidden'>
@@ -114,7 +114,9 @@ function Projects() {
                     <a 
                     href={project.link} 
                     className='p-3 rounded-full glass hover:bg-primary/60 hover:text-primary-foreground transition-all'>
+                      <a href="https://github.com/SOKHY247">
                       <Github className='w-5 h-5'/>
+                      </a>
                     </a>
                   </div>
               </div>
