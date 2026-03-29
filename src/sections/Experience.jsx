@@ -4,7 +4,7 @@ function Experience() {
     {
     period: "2024 - Present",
     role: "Information Technology Student",
-    company: "University / Self-Learning",
+    company: "National University Of Management",
     desc: "Focusing on web development fundamentals and building modern web applications using React, Next.js, and TypeScript. Continuously improving problem-solving and frontend architecture skills.",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript"],
     current: true
@@ -22,6 +22,14 @@ function Experience() {
     role: "Web Development Learner",
     company: "Online Platforms",
     desc: "Started learning web development fundamentals including HTML, CSS, and JavaScript. Built small projects to understand core concepts and browser behavior.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    current: false
+  },
+  {
+    period: "2026 - Present",
+    role: "Web Development",
+    company: "TCI Professional Center",
+    desc: "I'm a student focus on Web Development fundamentals include HMTL , CSS , JavaScript, Tailwindcss and React.js (Frontend) and then​ Continue learn PHP , Mysql and Laravel framwork (Backend).",
     technologies: ["HTML", "CSS", "JavaScript"],
     current: false
   }

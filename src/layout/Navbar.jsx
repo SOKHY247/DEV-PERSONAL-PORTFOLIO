@@ -10,7 +10,7 @@ function Navbar() {
     { href :"#projects" , label : "Projects"},
     // { href :"#testimonials" , label : "Testimonials"},
     { href :"#contact" , label : "Contact"},
-    { href :"#blog" , label : "Blog"}
+    // { href :"#blog" , label : "Blog"}
   ]
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

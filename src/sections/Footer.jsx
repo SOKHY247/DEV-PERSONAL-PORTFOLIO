@@ -5,7 +5,7 @@ const socialLinks = [
     {icon : Github , href : "#", label : "Github"},
     {icon : Linkedin , href : "#", label : "Linkedin"},
     {icon : Twitter , href : "#", label : "Twitter"},
-    {icon : Send , href : "#", label : "Send"}
+    {icon : Send , href : "https://t.me/SOKHY_VAN", label : "Send"}
 ];
 
 const footerLinks = [

@@ -24,7 +24,7 @@ const contactInfor =[
     {
       icon:Send,
       label: "Telegram",
-      value: "Contact Me",
+      value: "Contact Me on Telegram",
       href: "https://t.me/SOKHY_VAN"
     }
   ];
