@@ -32,7 +32,16 @@ function Experience() {
     desc: "I'm a student focus on Web Development fundamentals include HMTL , CSS , JavaScript, Tailwindcss and React.js (Frontend) and then​ Continue learn PHP , Mysql and Laravel framwork (Backend).",
     technologies: ["HTML", "CSS", "JavaScript"],
     current: false
+  },
+  {
+    period: "2024 - 2026",
+    role: "Labeler, Project and Data Entry",
+    company: "Digital Divide Data Cambodia",
+    desc: "I have two years of experience as a Data Entry Labeler at gital Divide Data Cambodia.",
+    technologies: ["Data Entry", "Labeling", "Project Management"],
+    current: false
   }
+  
   ]
   return (
     <section 
