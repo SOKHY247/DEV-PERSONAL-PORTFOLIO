@@ -6,6 +6,7 @@ import {Testimonials} from "@/sections/Testimonials";
 import {Contact} from "@/sections/Contact";
 import { Navbar } from "@/layout/Navbar";
 import { Footer } from "./sections/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
       </main>
       <Footer/>
+      <Analytics />
     </div>
   )
 }
