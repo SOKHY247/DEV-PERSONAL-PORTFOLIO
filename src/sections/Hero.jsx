@@ -1,5 +1,5 @@
 import { Button } from "@/components/Button"
-import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download, Link } from 'lucide-react'
+import { ArrowRight, Github, Linkedin, Twitter, Facebook, ChevronDown, Download, Link, Send } from 'lucide-react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
 const dots = [...Array(30)].map(() => ({
   left: `${Math.random() * 100}%`,
@@ -15,6 +15,7 @@ const skills = [
   "Node.js",
   "PHP",
   "Laravel",
+  "Laravel",
   "Git Control",
   "C#",
   "Node.js",
@@ -22,7 +23,8 @@ const skills = [
   "JavaScript",
   "HTML",
   "CSS",
-  "Java"
+  "Java",
+  "C++",
 ]
 function Hero() {
   return (
@@ -98,9 +100,9 @@ function Hero() {
                 </span>
                 {[
                   {icon : Github , href : "https://github.com/SOKHY247"},
-                  {icon : Linkedin , href : "#"},
-                  {icon : Twitter , href : "#"},
-                  {icon : Facebook, href : "#"},
+                  {icon : Linkedin , href : "https://www.linkedin.com/in/sokhy-vann-7b5659308/"},
+                  {icon : Send , href : "https://t.me/SOKHY_VAN"},
+                  {icon : Facebook, href : "https://web.facebook.com/sokhy.vann"},
                 ].map((social, index) => (
                   <a key={index} href={social.href}
                   className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
@@ -139,7 +141,7 @@ function Hero() {
                 {/* Stats Badge */}
                 <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
                   <div className='text-2xl font-bold text-primary'>2+</div>
-                  <div className='text-xs text-shadow-muted-foreground'>Labeler Project data entry</div>
+                  <div className='text-xs text-shadow-muted-foreground'>Labeler Project Data Entry</div>
                 </div>
               </div>
             </div>

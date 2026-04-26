@@ -1,11 +1,11 @@
-import { Github, Linkedin, Twitter, Send } from "lucide-react"
+import { Github, Linkedin, Twitter, Send, Facebook } from "lucide-react"
 
 
 const socialLinks = [
-    {icon : Github , href : "#", label : "Github"},
-    {icon : Linkedin , href : "#", label : "Linkedin"},
-    {icon : Twitter , href : "#", label : "Twitter"},
-    {icon : Send , href : "https://t.me/SOKHY_VAN", label : "Send"}
+    {icon : Github , href : "https://github.com/SOKHY247", label : "Github"},
+    {icon : Linkedin , href : "https://www.linkedin.com/in/sokhy-vann-7b5659308/", label : "Linkedin"},
+    {icon : Send , href : "https://t.me/SOKHY_VAN", label : "Send"},
+    {icon : Facebook , href : "https://web.facebook.com/sokhy.vann", label : "Facebook"},
 ];
 
 const footerLinks = [
