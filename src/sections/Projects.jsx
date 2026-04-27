@@ -1,20 +1,22 @@
 
 import { ArrowUpRight, Github } from 'lucide-react'
 import { AnimateBorderButton } from '@/components/AnimateBorderButton'
+import { useTranslation } from 'react-i18next'
 function Projects() {
+  const { t } = useTranslation()
 
   const projects =[
     {
-      title : "E-commerce Sale products",
-      desc : "Bulid about e-commerce web site sale produts.( currently keep going to build project full stack )",
+      title : t('projects.items.0.title'),
+      desc : t('projects.items.0.desc'),
       image : "/projects/e-commerce.png",
       tags  : ["React","PHP-laravel","Mysql","tailwindcss"],
       link : "#",
       github : "https://github.com/SOKHY247",
     },
      {
-      title : "Book Store",
-      desc : "Sale book online platform E-commerce.",
+      title : t('projects.items.1.title'),
+      desc : t('projects.items.1.desc'),
       image : "/projects/Book_store.png",
       tags  : ["React","Tailwindcss"],
       link : "https://book-store-61xb.vercel.app/",
@@ -77,14 +79,14 @@ function Projects() {
       <div className='container mx-auto px-6 relative z-10'>
            {/* Section Header */}
         <div className='text-center mx-auto max-w-3xl mb-16'>
-          <span className='text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in'> Feature Work</span>
+          <span className='text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in'>{t('projects.label')}</span>
           <h2 className='text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground'>
-            Project that
-          <span className='font-serif italic font-normal text-white'>{" "}make an impact.
+            {t('projects.title1')}
+          <span className='font-serif italic font-normal text-white'>{" "}{t('projects.title2')}
           </span>
           </h2>
           <p className='text-muted-foreground animate-fade-in animation-delay-200'>
-            A selection of my recent work, from complex web application to innovative that solve real-world problems.
+            {t('projects.desc')}
           </p>
         </div>
         {/* Projects Grid */}
@@ -146,7 +148,7 @@ function Projects() {
         {/* View All CTA */}
         <div className='text-center mt-12 animate-fade-in animation-delay-500'>
             <AnimateBorderButton >
-              View All Projects 
+              {t('projects.viewAll')}
               <ArrowUpRight  className='w-5 h-5'/>
             </AnimateBorderButton>
         </div>

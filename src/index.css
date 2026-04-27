@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Khmer&family=Metal&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 @theme {
@@ -42,6 +43,9 @@
   }
   .font-serif{
     font-family: "Playfair Display", serif;
+  }
+  .lang-km body, .lang-km {
+    font-family: "Khmer", "Open Sans", sans-serif;
   }
 }
 @layer components{
