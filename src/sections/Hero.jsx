@@ -70,9 +70,12 @@ function Hero() {
                   {t('hero.contactBtn')} <ArrowRight className='w-5 h-5' />
                 </Button>
               </a>
+              <a href="Sokhy_Van CV.pdf" download="Sokhy_Van CV.pdf">
               <AnimateBorderButton size="lg">
                 <Download className='w-5 h-5' /> {t('hero.downloadBtn')}
               </AnimateBorderButton>
+              </a>
+              
             </div>
 
             {/* Social Links */}
