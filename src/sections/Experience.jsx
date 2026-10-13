@@ -11,6 +11,7 @@ function Experience() {
     ["HTML", "CSS", "JavaScript"],
     ["HTML", "CSS", "JavaScript"],
     ["Data Entry", "Labeling", "Project Management"],
+    
   ]
 
   return (
@@ -18,7 +19,7 @@ function Experience() {
       <div className='absolute top-1/2 left-1/4 w-96 h-96 bg-primary/5 blur-3xl -translate-y-1/2' />
       <div className='container mx-auto px-6 relative z-10'>
         <div className='max-w-3xl mb-16'>
-          <span className='text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in'>{t('experience.label')}</span>
+          <span className='text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in'>{t('experience.lcabel')}</span>
           <h2 className='text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground'>
             {t('experience.title1')}
             <span className='font-serif italic font-normal text-white'> {t('experience.title2')}</span>

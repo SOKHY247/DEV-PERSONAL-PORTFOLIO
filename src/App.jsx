@@ -43,7 +43,7 @@ function App() {
         <Projects />
         <Experience />
         <Contact />
-        <Blog onReadMore={(slug) => setSelectedSlug(slug)} />
+        {/* <Blog onReadMore={(slug) => setSelectedSlug(slug)} /> */}
       </main>
       <Footer />
     </div>
